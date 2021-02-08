@@ -1,5 +1,9 @@
 # muisto
 
+![GitHub All Releases](https://img.shields.io/github/downloads/raspi/muisto/total?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/raspi/muisto?style=for-the-badge)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/raspi/muisto?style=for-the-badge)
+
 Memory dumper for Linux. Uses `/proc/<pid>/maps` file for source.
 
 # Usage
