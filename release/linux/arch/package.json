@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "ver": "v1.0.0"
+  },
+  "maintainer": "Pekka Järvinen",
+  "maintainer_email": "-",
+  "name": [
+    "heksa"
+  ],
+  "version": "-<UPDATE>",
+  "release": 1,
+  "short_description": "Memory dumper for Linux",
+  "licenses": [
+    "Apache 2.0"
+  ],
+  "url": "https://github.com/raspi/muisto",
+  "pkg_url_prefix": "https://github.com/raspi/muisto/releases/download/$pkgver/",
+  "files": {}
+}
