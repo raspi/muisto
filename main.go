@@ -174,7 +174,7 @@ func main() {
 			continue
 		}
 
-		if maxSize != 0 && i.Size() <= maxSize {
+		if maxSize != 0 && i.Size() >= maxSize {
 			log.Printf(`Skipped: (max size %d) %v`, maxSize, i)
 			continue
 		}
