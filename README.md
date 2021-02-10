@@ -4,7 +4,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/raspi/muisto?style=for-the-badge)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/raspi/muisto?style=for-the-badge)
 
-Memory dumper for Linux. Uses `/proc/<pid>/maps` file for source.
+Memory dumper for Linux. Uses `/proc/<pid>/maps` file for source. Memory is dumped from `/proc/<pid>/mem`.
 
 # Usage
 
@@ -28,3 +28,10 @@ Examples:
 See:
   `man 5 proc`, `cat /proc/<pid>/maps`
 ```
+
+After dumping you can use for example `file` and `binwalk`:
+
+    % find . -type f -iname "*.dump" -exec file "{}" \;
+    % binwalk --dd ".*" *.dump
+    
+    
